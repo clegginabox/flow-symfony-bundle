@@ -1,0 +1,23 @@
+{
+    "name": "flow-php/symfony-bundle",
+    "description": "Symfony PHP-Flow Bundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Paul Clegg",
+            "email": "pclegg@pm.me"
+        }
+    ],
+    "homepage": "https://flow-php.com/",
+    "require": {
+        "flow-php/etl": "^0.10.0",
+        "symfony/http-kernel": "^6.0 || ^7.0",
+        "symfony/dependency-injection": "^6.0 || ^7.0",
+        "symfony/config": "^6.0 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flow\\Bundle\\": "src/"
+        }
+    }
+}
