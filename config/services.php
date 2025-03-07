@@ -11,5 +11,6 @@ return static function(ContainerConfigurator $container): void {
         ->set('flow.data_frame', Flow::class)
         ->args([
             null,
-        ]);
+        ])
+        ->alias(Flow::class, 'flow.data_frame');
 };
